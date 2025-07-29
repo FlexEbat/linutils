@@ -1,14 +1,14 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 
-## Description
+## Описание
 
-LinUtils is a powerful shell script utility for Linux systems that simplifies package management, system administration, and desktop environment setup. It provides an interactive TUI (Terminal User Interface) using `gum` for a more user-friendly experience.
+LinUtils - это мощная утилита на основе shell-скриптов для систем Linux, которая упрощает управление пакетами, администрирование системы и настройку окружения рабочего стола. Она предоставляет интерактивный TUI (терминальный пользовательский интерфейс).
 
-## Prerequisites
+## Предварительные требования
 
-### Install gum
-`gum` is required for the beautiful menu interfaces. Install it according to your distribution:
+### Установка gum
+Для красивых меню интерфейса требуется `gum`. Установите его в соответствии с вашим дистрибутивом:
 
 ```bash
 # Arch Linux
@@ -21,94 +21,94 @@ sudo apt install gum
 sudo dnf install gum
 ```
 
-For other distributions, please refer to the [gum GitHub repository](https://github.com/charmbracelet/gum).
+Для других дистрибутивов, пожалуйста, обратитесь к [репозиторию gum на GitHub](https://github.com/charmbracelet/gum).
 
-## Installation
+## Установка
 
-1. Clone the repository:
+1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/FlexEbat/linutils.git
 ```
 
-2. Make the script executable:
+2. Сделайте скрипт исполняемым:
 ```bash
 chmod +x linutil.sh
 ```
 
-3. Run with superuser privileges:
+3. Запустите с правами суперпользователя:
 ```bash
 sudo ./linutil.sh
 ```
 
-## Features
+## Функции
 
-### 1. Package Installation
-#### 1.1 Desktop Environment (DE/WM) Installation
-- Install popular desktop environments:
+### 1. Установка пакетов
+#### 1.1 Установка окружения рабочего стола (DE/WM)
+- Установка популярных окружений рабочего стола:
   - GNOME
   - KDE Plasma
   - XFCE4
   - LXDE
-- Window Managers:
-  - i3 (includes rofi launcher and i3status)
-  - Hyprland (includes waybar, wofi launcher, and basic utilities)
-  - Sway (bare compositor)
+- Оконные менеджеры:
+  - i3 (включает launcher rofi и i3status)
+  - Hyprland (включает waybar, launcher wofi и базовые утилиты)
+  - Sway (базовый композитор)
 
-#### 1.2 System Components
-- Graphics drivers installation (NVIDIA, AMD, Intel)
-- Audio server setup (PipeWire or PulseAudio)
-- Gaming setup (enables multilib and installs Steam)
+#### 1.2 Системные компоненты
+- Установка графических драйверов (NVIDIA, AMD, Intel)
+- Настройка аудиосервера (PipeWire или PulseAudio)
+- Настройка для игр (включает multilib и устанавливает Steam)
 
-*Note: Use SPACE or X to select options, then press ENTER to confirm. If no selection is needed, just press ENTER.*
+*Примечание: Используйте ПРОБЕЛ или X для выбора опций, затем нажмите ENTER для подтверждения. Если выбор не требуется, просто нажмите ENTER.*
 
-#### 1.3 Custom Package Installation
-- Install packages by name (supports multiple packages, space-separated)
+#### 1.3 Установка пользовательских пакетов
+- Установка пакетов по имени (поддерживает несколько пакетов, разделенных пробелами)
 
-### 2. Package Removal
-- Interactive package removal with search functionality
-- Shows all installed packages
-- Multi-select support for batch removal
+### 2. Удаление пакетов
+- Интерактивное удаление пакетов с функцией поиска
+- Показывает все установленные пакеты
+- Поддержка множественного выбора для пакетного удаления
 
-### 3. System Update
-- One-click system update functionality
-- Performs complete system upgrade
+### 3. Обновление системы
+- Функция обновления системы в один клик
+- Выполняет полное обновление системы
 
-### 4. Service Management
-Supports both systemd and OpenRC init systems with automatic detection. Features include:
-- Enable/disable services at boot
-- Start/stop services
-- View service status
-- List all available services
+### 4. Управление службами
+Поддерживает системы инициализации systemd и OpenRC с автоматическим определением. Включает в себя:
+- Включение/отключение служб при загрузке
+- Запуск/остановка служб
+- Просмотр статуса служб
+- Список всех доступных служб
 
-### 5. System Information
-- Displays system information using neofetch/fastfetch
-- Offers to install these tools if not present
+### 5. Информация о системе
+- Отображает информацию о системе с помощью neofetch/fastfetch
+- Предлагает установить эти инструменты, если они отсутствуют
 
-## Requirements
+## Требования
 
-- Linux-based operating system
-- Bash shell
-- `gum` for the terminal user interface
-- Root/sudo privileges for system operations
+- Операционная система на базе Linux
+- Оболочка Bash
+- `gum` для терминального пользовательского интерфейса
+- Права root/sudo для системных операций
 
-## License
+## Лицензия
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+Этот проект лицензирован под GNU General Public License v3.0 - подробности см. в файле [LICENSE](LICENSE).
 
-## Author
+## Автор
 
 - [@FlexEbat](https://github.com/FlexEbat)
 
-## Contributing
+## Участие в разработке
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Мы приветствуем ваше участие! Не стесняйтесь отправлять Pull Request.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Создайте форк проекта
+2. Создайте ветку для вашей функции (`git checkout -b feature/AmazingFeature`)
+3. Зафиксируйте изменения (`git commit -m 'Добавить некоторую удивительную функцию'`)
+4. Отправьте в ветку (`git push origin feature/AmazingFeature`)
+5. Откройте Pull Request
 
-## Support
+## Поддержка
 
-If you encounter any problems or have suggestions, please [open an issue](https://github.com/FlexEbat/linutils/issues).
+Если вы столкнулись с проблемами или у вас есть предложения, пожалуйста, [откройте issue](https://github.com/FlexEbat/linutils/issues).
