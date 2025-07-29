@@ -95,13 +95,12 @@ sudo ./linutil.sh
 
 Этот проект лицензирован под GNU General Public License v3.0 - подробности см. в файле [LICENSE](LICENSE).
 
-## Автор
-
-- [@FlexEbat](https://github.com/FlexEbat)
+## Контибьютеры
 
 <a href="https://github.com/FlexEbat/linutils/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=FlexEbat/linutils" />
 </a>
+
 
 
 ## Участие в разработке
