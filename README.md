@@ -99,6 +99,11 @@ sudo ./linutil.sh
 
 - [@FlexEbat](https://github.com/FlexEbat)
 
+<a href="https://github.com/FlexEbat/linutils/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FlexEbat/linutils" />
+</a>
+
+
 ## Участие в разработке
 
 Мы приветствуем ваше участие! Не стесняйтесь отправлять Pull Request.
@@ -112,3 +117,5 @@ sudo ./linutil.sh
 ## Поддержка
 
 Если вы столкнулись с проблемами или у вас есть предложения, пожалуйста, [откройте issue](https://github.com/FlexEbat/linutils/issues).
+
+
